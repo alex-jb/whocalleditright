@@ -1,0 +1,12 @@
+{
+  "slug": "dalio",
+  "name": "Ray Dalio",
+  "fund": "Bridgewater Associates",
+  "twitter": "RayDalio",
+  "photo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5a/Ray_Dalio_Headshot.jpg/440px-Ray_Dalio_Headshot.jpg",
+  "bio": "Founder of Bridgewater Associates, the world's largest hedge fund. 'Principles' author. Q1 2026 calls pending parse.",
+  "calls": [],
+  "cumulative_brier": 0,
+  "cumulative_correct": 0,
+  "cumulative_total": 0
+}

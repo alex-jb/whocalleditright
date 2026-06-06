@@ -1,0 +1,12 @@
+{
+  "slug": "buffett",
+  "name": "Warren Buffett",
+  "fund": "Berkshire Hathaway",
+  "twitter": null,
+  "photo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6e/Warren_Buffett_KU_Visit.jpg/440px-Warren_Buffett_KU_Visit.jpg",
+  "bio": "Chairman and CEO of Berkshire Hathaway. Greatest capital allocator of the 20th century. Q1 2026 calls pending parse.",
+  "calls": [],
+  "cumulative_brier": 0,
+  "cumulative_correct": 0,
+  "cumulative_total": 0
+}

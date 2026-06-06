@@ -1,0 +1,113 @@
+@import 'tailwindcss';
+
+@theme {
+  /* Editorial palette — off-white background, ink black, single muted orange */
+  --color-cream: #F5F4EE;
+  --color-cream-deep: #ECEAE0;
+  --color-ink: #0E0E0C;
+  --color-ink-soft: #2A2A26;
+  --color-ink-dim: #6B6A63;
+  --color-ink-mute: #9B998F;
+  --color-rule: #1C1B19;
+  --color-rule-soft: #C9C6BA;
+  --color-accent: #E45A2A;
+  --color-accent-soft: #F2DDD0;
+  --color-tier-green: #2F6E3A;
+  --color-tier-yellow: #B07A12;
+  --color-tier-red: #B43321;
+}
+
+:root {
+  color-scheme: light;
+}
+
+html,
+body {
+  background: #F5F4EE;
+  color: #0E0E0C;
+  -webkit-font-smoothing: antialiased;
+  text-rendering: optimizeLegibility;
+}
+
+body {
+  font-family:
+    var(--font-sans),
+    'Inter Tight',
+    ui-sans-serif,
+    system-ui,
+    -apple-system,
+    'Segoe UI',
+    Roboto,
+    sans-serif;
+  font-feature-settings: 'ss01', 'cv11';
+}
+
+/* Editorial headline scale — very tight leading on display weights */
+.font-display {
+  font-family: var(--font-sans), 'Inter Tight', system-ui, sans-serif;
+  font-weight: 900;
+  letter-spacing: -0.035em;
+  line-height: 0.92;
+}
+
+.font-display-md {
+  font-family: var(--font-sans), 'Inter Tight', system-ui, sans-serif;
+  font-weight: 800;
+  letter-spacing: -0.025em;
+  line-height: 1.0;
+}
+
+/* Editorial body — generous leading, near-black ink */
+.editorial-body {
+  font-family: var(--font-sans), 'Inter Tight', system-ui, sans-serif;
+  font-weight: 400;
+  line-height: 1.55;
+  color: #2A2A26;
+}
+
+/* Pull-quote — italic editorial */
+.editorial-pull {
+  font-family: 'Georgia', 'Times New Roman', serif;
+  font-style: italic;
+  font-size: 1.5rem;
+  line-height: 1.35;
+  color: #0E0E0C;
+}
+
+/* Big monospace ticker — gigantic Bloomberg headline scale */
+.font-ticker {
+  font-family: var(--font-mono), ui-monospace, 'SFMono-Regular', monospace;
+  font-weight: 700;
+  letter-spacing: -0.02em;
+}
+
+::selection {
+  background: #E45A2A;
+  color: #F5F4EE;
+}
+
+/* Editorial underline-on-hover */
+.editorial-link {
+  background-image: linear-gradient(#E45A2A, #E45A2A);
+  background-size: 0% 2px;
+  background-repeat: no-repeat;
+  background-position: 0 100%;
+  transition: background-size 180ms ease-out;
+}
+.editorial-link:hover,
+.editorial-link:focus-visible {
+  background-size: 100% 2px;
+}
+
+/* Black focus outline (no neon) */
+*:focus-visible {
+  outline: 2px solid #0E0E0C;
+  outline-offset: 3px;
+}
+
+/* Editorial column rule between body paragraphs */
+.col-rule-divider > * + * {
+  border-top: 1px solid #C9C6BA;
+  padding-top: 1rem;
+  margin-top: 1rem;
+}

@@ -1,0 +1,12 @@
+{
+  "slug": "spitznagel",
+  "name": "Mark Spitznagel",
+  "fund": "Universa Investments",
+  "twitter": null,
+  "photo_url": null,
+  "bio": "Founder of Universa Investments, the Taleb-adjacent tail-hedge fund. Q1 2026 calls pending parse.",
+  "calls": [],
+  "cumulative_brier": 0,
+  "cumulative_correct": 0,
+  "cumulative_total": 0
+}

@@ -1,0 +1,49 @@
+{
+  "slug": "burry",
+  "name": "Michael Burry",
+  "fund": "Scion Asset Management",
+  "twitter": "michaeljburry",
+  "photo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/35/Michael_Burry.jpg/440px-Michael_Burry.jpg",
+  "bio": "Subject of 'The Big Short'. Known for permabearish calls and theatrical 13F resets. Most recent 13F filed 2025-11-03.",
+  "calls": [
+    {
+      "date": "2026-04-30",
+      "ticker": "NVDA",
+      "action": "NEW",
+      "rationale_quote": "Disclosed Dec-2027 NVDA put position (notional). April 2026 disclosure.",
+      "price_at_call": 168.42,
+      "price_today": 152.30,
+      "implied_view": "BEARISH",
+      "actual_move_pct": -9.57,
+      "brier_score": 0.024,
+      "call_correct": true
+    },
+    {
+      "date": "2026-04-30",
+      "ticker": "PLTR",
+      "action": "NEW",
+      "rationale_quote": "Long-dated PLTR puts disclosed alongside NVDA position.",
+      "price_at_call": 142.18,
+      "price_today": 138.40,
+      "implied_view": "BEARISH",
+      "actual_move_pct": -2.66,
+      "brier_score": 0.043,
+      "call_correct": true
+    },
+    {
+      "date": "2025-11-03",
+      "ticker": "BABA",
+      "action": "INCREASED",
+      "rationale_quote": "Continued conviction on Chinese e-commerce. Prior 13F.",
+      "price_at_call": 92.50,
+      "price_today": 118.20,
+      "implied_view": "BULLISH",
+      "actual_move_pct": 27.78,
+      "brier_score": 0.0,
+      "call_correct": true
+    }
+  ],
+  "cumulative_brier": 0.022,
+  "cumulative_correct": 3,
+  "cumulative_total": 3
+}

@@ -1,0 +1,28 @@
+{
+  "name": "whocalleditright",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Public Brier-scored leaderboard auditing the most-cited hedge fund managers and pundits. Static + ISR. No DB.",
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint",
+    "typecheck": "tsc --noEmit"
+  },
+  "dependencies": {
+    "next": "16.2.6",
+    "react": "19.0.0",
+    "react-dom": "19.0.0"
+  },
+  "devDependencies": {
+    "@types/node": "22.10.0",
+    "@types/react": "19.0.0",
+    "@types/react-dom": "19.0.0",
+    "@tailwindcss/postcss": "^4.3.0",
+    "tailwindcss": "^4.3.0",
+    "typescript": "5.7.2",
+    "eslint": "9.16.0",
+    "eslint-config-next": "16.2.6"
+  }
+}

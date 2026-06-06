@@ -1,0 +1,12 @@
+{
+  "slug": "icahn",
+  "name": "Carl Icahn",
+  "fund": "Icahn Enterprises",
+  "twitter": "Carl_C_Icahn",
+  "photo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2b/Carl_Icahn_2013.jpg/440px-Carl_Icahn_2013.jpg",
+  "bio": "Activist investor, founder of Icahn Enterprises. Q1 2026 calls pending parse.",
+  "calls": [],
+  "cumulative_brier": 0,
+  "cumulative_correct": 0,
+  "cumulative_total": 0
+}

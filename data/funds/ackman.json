@@ -1,0 +1,61 @@
+{
+  "slug": "ackman",
+  "name": "Bill Ackman",
+  "fund": "Pershing Square Capital",
+  "twitter": "BillAckman",
+  "photo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3e/Bill_Ackman_2.jpg/440px-Bill_Ackman_2.jpg",
+  "bio": "Founder and CEO of Pershing Square. Concentrated long-only book of 8-12 names. Hugely active on X.",
+  "calls": [
+    {
+      "date": "2026-05-15",
+      "ticker": "MSFT",
+      "action": "NEW",
+      "rationale_quote": "New position in Microsoft. Q1 2026 13F filing.",
+      "price_at_call": 472.18,
+      "price_today": 451.30,
+      "implied_view": "BULLISH",
+      "actual_move_pct": -4.42,
+      "brier_score": 0.611,
+      "call_correct": false
+    },
+    {
+      "date": "2026-05-15",
+      "ticker": "AMZN",
+      "action": "INCREASED",
+      "rationale_quote": "Upped Amazon stake. Q1 2026 13F filing.",
+      "price_at_call": 218.74,
+      "price_today": 198.92,
+      "implied_view": "BULLISH",
+      "actual_move_pct": -9.06,
+      "brier_score": 0.727,
+      "call_correct": false
+    },
+    {
+      "date": "2026-05-15",
+      "ticker": "GOOGL",
+      "action": "DECREASED",
+      "rationale_quote": "Trimmed Alphabet. Q1 2026 13F filing.",
+      "price_at_call": 179.42,
+      "price_today": 156.10,
+      "implied_view": "BEARISH",
+      "actual_move_pct": -13.0,
+      "brier_score": 0.018,
+      "call_correct": true
+    },
+    {
+      "date": "2026-05-15",
+      "ticker": "CMG",
+      "action": "HELD",
+      "rationale_quote": "Held Chipotle position steady. Q1 2026 13F filing.",
+      "price_at_call": 58.20,
+      "price_today": 56.40,
+      "implied_view": "NEUTRAL",
+      "actual_move_pct": -3.09,
+      "brier_score": 0.5,
+      "call_correct": false
+    }
+  ],
+  "cumulative_brier": 0.464,
+  "cumulative_correct": 1,
+  "cumulative_total": 4
+}

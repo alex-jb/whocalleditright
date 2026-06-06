@@ -1,0 +1,12 @@
+{
+  "slug": "greenblatt",
+  "name": "Joel Greenblatt",
+  "fund": "Gotham Asset Management",
+  "twitter": null,
+  "photo_url": null,
+  "bio": "Founder of Gotham Asset Management. 'Magic Formula' / 'Little Book That Beats the Market'. Q1 2026 calls pending parse.",
+  "calls": [],
+  "cumulative_brier": 0,
+  "cumulative_correct": 0,
+  "cumulative_total": 0
+}

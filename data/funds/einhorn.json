@@ -1,0 +1,12 @@
+{
+  "slug": "einhorn",
+  "name": "David Einhorn",
+  "fund": "Greenlight Capital",
+  "twitter": null,
+  "photo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/86/David_Einhorn.jpg/440px-David_Einhorn.jpg",
+  "bio": "President of Greenlight Capital. Known for the 2008 Lehman short. Q1 2026 calls pending parse.",
+  "calls": [],
+  "cumulative_brier": 0,
+  "cumulative_correct": 0,
+  "cumulative_total": 0
+}

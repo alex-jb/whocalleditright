@@ -1,0 +1,12 @@
+{
+  "slug": "cole",
+  "name": "Chris Cole",
+  "fund": "Artemis Capital Management",
+  "twitter": "vol_christopher",
+  "photo_url": null,
+  "bio": "Founder of Artemis Capital Management. Long-volatility specialist, 'Dragon Portfolio' thesis. Q1 2026 calls pending parse.",
+  "calls": [],
+  "cumulative_brier": 0,
+  "cumulative_correct": 0,
+  "cumulative_total": 0
+}

@@ -1,0 +1,12 @@
+{
+  "slug": "marks",
+  "name": "Howard Marks",
+  "fund": "Oaktree Capital",
+  "twitter": null,
+  "photo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0d/Howard_Marks_2.jpg/440px-Howard_Marks_2.jpg",
+  "bio": "Co-founder of Oaktree Capital. Distressed-debt pioneer. Memos read across Wall Street. Q1 2026 calls pending parse.",
+  "calls": [],
+  "cumulative_brier": 0,
+  "cumulative_correct": 0,
+  "cumulative_total": 0
+}

@@ -1,0 +1,85 @@
+{
+  "slug": "tepper",
+  "name": "David Tepper",
+  "fund": "Appaloosa Management",
+  "twitter": null,
+  "photo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c9/David_Tepper_2014.jpg/440px-David_Tepper_2014.jpg",
+  "bio": "Founder of Appaloosa Management. Famous for the 2009 financial crisis trade. Owns the Carolina Panthers.",
+  "calls": [
+    {
+      "date": "2026-05-15",
+      "ticker": "MU",
+      "action": "INCREASED",
+      "rationale_quote": "Tripled Micron position. Q1 2026 13F filing.",
+      "price_at_call": 122.50,
+      "price_today": 134.80,
+      "implied_view": "BULLISH",
+      "actual_move_pct": 10.04,
+      "brier_score": 0.025,
+      "call_correct": true
+    },
+    {
+      "date": "2026-05-15",
+      "ticker": "VST",
+      "action": "INCREASED",
+      "rationale_quote": "Doubled Vistra position. Q1 2026 13F filing.",
+      "price_at_call": 198.30,
+      "price_today": 212.45,
+      "implied_view": "BULLISH",
+      "actual_move_pct": 7.14,
+      "brier_score": 0.032,
+      "call_correct": true
+    },
+    {
+      "date": "2026-05-15",
+      "ticker": "MSFT",
+      "action": "DECREASED",
+      "rationale_quote": "Slashed Microsoft position by 82%. Q1 2026 13F filing.",
+      "price_at_call": 472.18,
+      "price_today": 451.30,
+      "implied_view": "BEARISH",
+      "actual_move_pct": -4.42,
+      "brier_score": 0.039,
+      "call_correct": true
+    },
+    {
+      "date": "2026-05-15",
+      "ticker": "AMZN",
+      "action": "INCREASED",
+      "rationale_quote": "Top conviction add. Q1 2026 13F filing.",
+      "price_at_call": 218.74,
+      "price_today": 198.92,
+      "implied_view": "BULLISH",
+      "actual_move_pct": -9.06,
+      "brier_score": 0.727,
+      "call_correct": false
+    },
+    {
+      "date": "2026-05-15",
+      "ticker": "TSM",
+      "action": "INCREASED",
+      "rationale_quote": "Top picks alongside AMZN and GOOGL. Q1 2026 13F filing.",
+      "price_at_call": 182.15,
+      "price_today": 195.40,
+      "implied_view": "BULLISH",
+      "actual_move_pct": 7.27,
+      "brier_score": 0.032,
+      "call_correct": true
+    },
+    {
+      "date": "2026-05-15",
+      "ticker": "GOOGL",
+      "action": "INCREASED",
+      "rationale_quote": "Top conviction add — opposite of Druckenmiller. Q1 2026 13F filing.",
+      "price_at_call": 179.42,
+      "price_today": 156.10,
+      "implied_view": "BULLISH",
+      "actual_move_pct": -13.0,
+      "brier_score": 0.825,
+      "call_correct": false
+    }
+  ],
+  "cumulative_brier": 0.280,
+  "cumulative_correct": 4,
+  "cumulative_total": 6
+}
